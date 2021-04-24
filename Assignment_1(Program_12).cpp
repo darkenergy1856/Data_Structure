@@ -93,6 +93,6 @@ print:
 
 void addEdge(int a, int b, int matrix[][50])
 {
-    matrix[a][b] = 1;
-    matrix[b][a] = 1;
+    matrix[a][b] += 1;
+    matrix[b][a] += 1;
 }
