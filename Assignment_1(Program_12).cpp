@@ -1,5 +1,6 @@
-// Write a Program to represent Graphs using the Adjacency Matrices and check if it is a
-// complete graph.
+// Write a Program to represent Graphs using the Adjacency Matrices and check if it is a complete graph.
+
+// Incomplete Code.(Complete Graph logic check is missing.)
 
 #include <iostream>
 
