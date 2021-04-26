@@ -1,5 +1,4 @@
-// Write a Program to represent Graphs using the Adjacency Matrices and check if it is a
-// complete graph.
+// Write a Program to accept a directed graph G and compute the in-degree and out-degree of each vertex. 
 
 #include <iostream>
 
@@ -103,4 +102,3 @@ void outDegree(int data[][3], int a)
 {
     data[a][2]++;
 }
-//Incomplete Code.
