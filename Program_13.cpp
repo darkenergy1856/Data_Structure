@@ -53,7 +53,7 @@ edge:
     cin >> a >> b;
     a--;
     b--;
-    if (a > 0 && a < vertices && b > 0 && b < vertices)
+    if (a >= 0 && a < vertices && b >= 0 && b < vertices)
     {
         inDegree(data, b);
         outDegree(data, a);
